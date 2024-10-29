@@ -1,0 +1,113 @@
+.afeb-news-ticker-wrapper {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.afeb-items-swiper-head {
+    align-items: center;
+    background-color: #F00;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: center;
+    margin: 0;
+    min-height: 50px;
+    padding: 5px 0;
+    text-align: center;
+    width: 20%;
+}
+
+.afeb-swiper-news-ticker {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    min-height: 50px;
+    padding: 5px 0;
+    width: 90%;
+}
+
+.afeb-swiper-news-ticker .swiper-wrapper {
+    align-items: center;
+    display: flex;
+}
+
+.afeb-swiper-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 65%;
+}
+
+.afeb-swiper-date {
+    background-color: #008DDA;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-left: 6px;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+.afeb-swiper-news-ticker div[class^="afeb-items-swiper-button"] {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 9;
+}
+
+.afeb-swiper-news-ticker div.afeb-items-swiper-button-prev,
+.afeb-swiper-news-ticker div.afeb-items-swiper-button-next {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.afeb-swiper-news-ticker div.afeb-items-swiper-button-prev.ltr {
+    right: 40px;
+}
+
+.afeb-swiper-news-ticker div.afeb-items-swiper-button-next.ltr {
+    right: 10px;
+}
+
+.afeb-swiper-news-ticker div[class^="afeb-items-swiper-button"] i {
+    border-radius: 6px;
+    color: #000;
+    cursor: pointer;
+    padding: 3px 6px;
+}
+
+.afeb-swiper-news-ticker .swiper-slide {
+    align-items: center;
+    display: flex;
+    margin-left: 6px;
+}
+
+@media screen and (max-width:600px) {
+    .afeb-items-swiper-head {
+        display: none;
+    }
+
+    .afeb-swiper-date {
+        font-size: 10px;
+    }
+
+    .afeb-swiper-news-ticker div[class^="afeb-items-swiper-button"] i {
+        font-size: 15px;
+    }
+
+    .afeb-swiper-news-ticker div.afeb-items-swiper-button-next.ltr {
+        right: 2px;
+    }
+
+    .afeb-swiper-news-ticker div.afeb-items-swiper-button-prev.ltr {
+        right: 22px;
+    }
+}

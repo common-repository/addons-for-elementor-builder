@@ -1,0 +1,72 @@
+.afeb-iconsvg-accordion::before {
+    background-image: url("../../img/widgets/accordion.svg")
+}
+
+.afeb-iconsvg-alert-box::before {
+    background-image: url("../../img/widgets/alert-box.svg")
+}
+
+.afeb-iconsvg-breadcrumb::before {
+    background-image: url("../../img/widgets/breadcrumb.svg")
+}
+
+.afeb-iconsvg-countdown::before {
+    background-image: url("../../img/widgets/countdown.svg")
+}
+
+.afeb-iconsvg-fancy-text::before {
+    background-image: url("../../img/widgets/fancy-text.svg")
+}
+
+.afeb-iconsvg-going-up:before {
+    background-image: url("../../img/widgets/going-up.svg")
+}
+
+.afeb-iconsvg-hotspot::before {
+    background-image: url("../../img/widgets/hotspot.svg")
+}
+
+.afeb-iconsvg-information-box::before {
+    background-image: url("../../img/widgets/information-box.svg")
+}
+
+.afeb-iconsvg-login-register::before {
+    background-image: url("../../img/widgets/login-register.svg")
+}
+
+.afeb-iconsvg-news-ticker::before {
+    background-image: url("../../img/widgets/news-ticker.svg")
+}
+
+.afeb-iconsvg-notice-box::before {
+    background-image: url("../../img/widgets/notice-box.svg")
+}
+
+.afeb-iconsvg-posts-grid:before {
+    background-image: url("../../img/widgets/posts-grid.svg")
+}
+
+.afeb-iconsvg-price-box::before {
+    background-image: url("../../img/widgets/price-box.svg")
+}
+
+.afeb-iconsvg-search-form:before {
+    background-image: url("../../img/widgets/search-form.svg")
+}
+
+.afeb-iconsvg-sound-player:before {
+    background-image: url("../../img/widgets/sound-player.svg")
+}
+
+.afeb-iconsvg-tabs:before {
+    background-image: url("../../img/widgets/tabs.svg");
+
+}
+
+.afeb-iconsvg-testimonial-carousel:before {
+    background-image: url("../../img/widgets/testimonial-carousel.svg")
+}
+
+.afeb-iconsvg-timeline::before {
+    background-image: url("../../img/widgets/timeline.svg")
+}
