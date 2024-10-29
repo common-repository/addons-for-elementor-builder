@@ -1,0 +1,27 @@
+{
+  "siteOptions": {
+    "blogname": "Vertex Addons for Elementor"
+  },
+  "steps": [
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "wordpress.org/plugins",
+        "slug": "addons-for-elementor-builder"
+      }
+    }
+  ],
+  "preferredVersions": {
+    "php": "8.0",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "landingPage": "/wp-admin/admin.php?page=afeb"
+}
